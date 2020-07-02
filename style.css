@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #191818;
+}
+
+section.jumpers {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.container h1 {
+    color: royalblue;
+    letter-spacing: 3px;
+    margin-bottom: 20px;
+}
+
+.container p {
+    color: white;
+}
+
+figcaption {
+    margin-top: 10px;
+    color: white;
+}
+
+.jumpers img {
+    width: 100%;
+    height: auto;
+}
+
+img {
+    cursor: pointer;
+}
+.main h1 {
+    color: black;
+    letter-spacing: 0;
+    margin: 0;
+    margin-left: 1vw;
+}
+.main p {
+    color: black;
+}
+.main h2 {
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-left: 1vw;
+}
+
+@media (max-width: 545px) {
+    .main h1 {
+        font-size: 26px;
+        text-align: center;
+        margin-left: 0vw;   
+    }
+    .main h2 {
+        font-size: 26px;
+        text-align: center;
+        margin-left: 0vw;
+    }   
+    .mini {
+        margin-top: 3vh;
+    }
+    .showList {
+        text-align: center;
+    }
+}
