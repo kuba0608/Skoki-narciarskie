@@ -1,0 +1,1 @@
+## strona prezentująca historię skoków narciarskich
